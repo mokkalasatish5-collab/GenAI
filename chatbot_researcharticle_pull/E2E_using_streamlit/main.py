@@ -24,7 +24,7 @@ for i in range(3):
     urls.append(url)
 
 process_url_clicked = st.sidebar.button("Process URLs")
-file_path = "faiss_store_openai.pkl"
+file_path = "../../.venv/faiss_store_openai.pkl"
 
 main_placeholder = st.empty()
 llm = ChatGroq(model="llama-3.1-8b-instant",temperature=0.2)
